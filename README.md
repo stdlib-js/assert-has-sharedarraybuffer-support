@@ -35,7 +35,26 @@ limitations under the License.
 
 > Detect native [`SharedArrayBuffer`][mdn-sharedarraybuffer] support.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-has-sharedarraybuffer-support
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
@@ -44,12 +63,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import hasSharedArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-sharedarraybuffer-support@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-sharedarraybuffer-support/tags). For example,
-
-```javascript
-import hasSharedArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-sharedarraybuffer-support@v0.2.0-deno/mod.js';
+var hasSharedArrayBufferSupport = require( '@stdlib/assert-has-sharedarraybuffer-support' );
 ```
 
 #### hasSharedArrayBufferSupport()
@@ -76,7 +90,7 @@ var bool = hasSharedArrayBufferSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasSharedArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-sharedarraybuffer-support@deno/mod.js';
+var hasSharedArrayBufferSupport = require( '@stdlib/assert-has-sharedarraybuffer-support' );
 
 var bool = hasSharedArrayBufferSupport();
 if ( bool ) {
@@ -90,7 +104,59 @@ if ( bool ) {
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/assert-has-sharedarraybuffer-support-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: has-sharedarraybuffer-support [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ has-sharedarraybuffer-support
+<boolean>
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -125,7 +191,7 @@ if ( bool ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -155,8 +221,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-sharedarraybuffer-support.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-has-sharedarraybuffer-support
 
-[test-image]: https://github.com/stdlib-js/assert-has-sharedarraybuffer-support/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/assert-has-sharedarraybuffer-support/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/assert-has-sharedarraybuffer-support/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/assert-has-sharedarraybuffer-support/actions/workflows/test.yml?query=branch:v0.2.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-has-sharedarraybuffer-support/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-has-sharedarraybuffer-support?branch=main
@@ -196,27 +262,27 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert-has-arraybuffer-support/tree/deno
+[@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert-has-arraybuffer-support
 
-[@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert-has-float32array-support/tree/deno
+[@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert-has-float32array-support
 
-[@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert-has-float64array-support/tree/deno
+[@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert-has-float64array-support
 
-[@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert-has-int16array-support/tree/deno
+[@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert-has-int16array-support
 
-[@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert-has-int32array-support/tree/deno
+[@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert-has-int32array-support
 
-[@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert-has-int8array-support/tree/deno
+[@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert-has-int8array-support
 
-[@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert-has-node-buffer-support/tree/deno
+[@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert-has-node-buffer-support
 
-[@stdlib/assert/has-uint16array-support]: https://github.com/stdlib-js/assert-has-uint16array-support/tree/deno
+[@stdlib/assert/has-uint16array-support]: https://github.com/stdlib-js/assert-has-uint16array-support
 
-[@stdlib/assert/has-uint32array-support]: https://github.com/stdlib-js/assert-has-uint32array-support/tree/deno
+[@stdlib/assert/has-uint32array-support]: https://github.com/stdlib-js/assert-has-uint32array-support
 
-[@stdlib/assert/has-uint8array-support]: https://github.com/stdlib-js/assert-has-uint8array-support/tree/deno
+[@stdlib/assert/has-uint8array-support]: https://github.com/stdlib-js/assert-has-uint8array-support
 
-[@stdlib/assert/has-uint8clampedarray-support]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support/tree/deno
+[@stdlib/assert/has-uint8clampedarray-support]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support
 
 <!-- </related-links> -->
 
