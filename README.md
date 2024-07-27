@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import hasSharedArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-sharedarraybuffer-support@deno/mod.js';
+import hasSharedArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-sharedarraybuffer-support@v0.2.2-deno/mod.js';
 ```
 
 #### hasSharedArrayBufferSupport()
@@ -71,7 +71,7 @@ var bool = hasSharedArrayBufferSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasSharedArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-sharedarraybuffer-support@deno/mod.js';
+import hasSharedArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-sharedarraybuffer-support@v0.2.2-deno/mod.js';
 
 var bool = hasSharedArrayBufferSupport();
 if ( bool ) {
