@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-09-26)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f477e26`](https://github.com/stdlib-js/stdlib/commit/f477e26a03e5e365f2e7c4035959a2fb789698a3) - **chore:** move functions to parent scope _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
