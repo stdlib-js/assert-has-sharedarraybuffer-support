@@ -1,4 +1,4 @@
-"use strict";var t=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var u=t(function(v,f){"use strict";var y=typeof SharedArrayBuffer=="function"?SharedArrayBuffer:null;f.exports=y});var o=t(function(b,s){"use strict";var i=require("@stdlib/assert-is-sharedarraybuffer"),n=u();function c(){var e,r,a;if(typeof n!="function")return!1;try{r=new n(16),a=r.slice(4,8),e=i(r)&&i(a)&&r.byteLength===16&&a.byteLength===4}catch(l){e=!1}return e}s.exports=c});var h=o();module.exports=h;
+"use strict";var t=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(a){throw r=0,a}}};var u=t(function(v,f){"use strict";var y=typeof SharedArrayBuffer=="function"?SharedArrayBuffer:null;f.exports=y});var o=t(function(b,s){"use strict";var i=require("@stdlib/assert-is-sharedarraybuffer"),n=u();function c(){var e,r,a;if(typeof n!="function")return!1;try{r=new n(16),a=r.slice(4,8),e=i(r)&&i(a)&&r.byteLength===16&&a.byteLength===4}catch(l){e=!1}return e}s.exports=c});var h=o();module.exports=h;
 /**
 * @license Apache-2.0
 *
